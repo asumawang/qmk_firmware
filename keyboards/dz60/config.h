@@ -11,6 +11,13 @@
 #define PRODUCT         DZ60
 #define DESCRIPTION     DZ60 Keyboard
 
+/* Auto Shift */
+#define AUTO_SHIFT_TIMEOUT 150
+#define NO_AUTO_SHIFT_SPECIAL
+
+/* tap toggle */
+#define TAPPING_TOGGLE 2
+
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
