@@ -12,7 +12,7 @@
 #define DESCRIPTION     DZ60 Keyboard
 
 /* Auto Shift */
-#define AUTO_SHIFT_TIMEOUT 150
+#define AUTO_SHIFT_TIMEOUT 190
 #define NO_AUTO_SHIFT_SPECIAL
 
 /* tap toggle */
@@ -33,6 +33,10 @@
 /* number of backlight levels */
 #define BACKLIGHT_PIN B6
 #define BACKLIGHT_LEVELS 5
+
+/* Enable backlight breathing */
+#define BACKLIGHT_BREATHING
+#define BREATHING_PERIOD 5
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCING_DELAY 5
